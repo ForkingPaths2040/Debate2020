@@ -11,7 +11,7 @@ function Canidate(props) {
   }
   return (
     <div className="card">
-      <h2>"{quote}"</h2>
+      <h2>{quote}</h2>
       <img src={props.imageUrl} alt='' />
       <h3>
         {props.name}
